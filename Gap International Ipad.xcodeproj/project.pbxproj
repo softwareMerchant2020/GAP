@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF623DB6240EB81200E5D33D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DB5240EB81200E5D33D /* AppDelegate.swift */; };
+		EF623DBA240EB81200E5D33D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DB9240EB81200E5D33D /* MasterViewController.swift */; };
+		EF623DBC240EB81200E5D33D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DBB240EB81200E5D33D /* DetailViewController.swift */; };
+		EF623DBF240EB81200E5D33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF623DBD240EB81200E5D33D /* Main.storyboard */; };
+		EF623DC1240EB81300E5D33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF623DC0240EB81300E5D33D /* Assets.xcassets */; };
+		EF623DC4240EB81300E5D33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF623DC2240EB81300E5D33D /* LaunchScreen.storyboard */; };
+		EF623DCF240EB81400E5D33D /* Gap_International_IpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DCE240EB81400E5D33D /* Gap_International_IpadTests.swift */; };
+		EF623DDA240EB81400E5D33D /* Gap_International_IpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DD9240EB81400E5D33D /* Gap_International_IpadUITests.swift */; };
+		EF623DE8240EBC6C00E5D33D /* Chapters.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF623DE7240EBC6C00E5D33D /* Chapters.plist */; };
+		EF623DEA240EBCDE00E5D33D /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623DE9240EBCDE00E5D33D /* Chapter.swift */; };
+		EF623E10240EDD0F00E5D33D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF623E0E240EDD0F00E5D33D /* DataModel.xcdatamodeld */; };
+		EFEDE09C24116529004A51DB /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE09B24116528004A51DB /* JournalViewController.swift */; };
+		EFEDE09F2412A7BD004A51DB /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE09D2412A7BD004A51DB /* JournalTableViewCell.swift */; };
+		EFEDE0A02412A7BD004A51DB /* JournalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFEDE09E2412A7BD004A51DB /* JournalTableViewCell.xib */; };
+		EFEDE0A22412B324004A51DB /* ChapterDataModeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE0A12412B324004A51DB /* ChapterDataModeller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF623DCB240EB81400E5D33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF623DAA240EB81200E5D33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF623DB1240EB81200E5D33D;
+			remoteInfo = "Gap International Ipad";
+		};
+		EF623DD6240EB81400E5D33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF623DAA240EB81200E5D33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF623DB1240EB81200E5D33D;
+			remoteInfo = "Gap International Ipad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF623DB2240EB81200E5D33D /* Management Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Management Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623DB5240EB81200E5D33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF623DB9240EB81200E5D33D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EF623DBB240EB81200E5D33D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF623DBE240EB81200E5D33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF623DC0240EB81300E5D33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF623DC3240EB81300E5D33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF623DC5240EB81300E5D33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF623DCA240EB81400E5D33D /* Gap International IpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gap International IpadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623DCE240EB81400E5D33D /* Gap_International_IpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gap_International_IpadTests.swift; sourceTree = "<group>"; };
+		EF623DD0240EB81400E5D33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF623DD5240EB81400E5D33D /* Gap International IpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gap International IpadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623DD9240EB81400E5D33D /* Gap_International_IpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gap_International_IpadUITests.swift; sourceTree = "<group>"; };
+		EF623DDB240EB81400E5D33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF623DE7240EBC6C00E5D33D /* Chapters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapters.plist; sourceTree = "<group>"; };
+		EF623DE9240EBCDE00E5D33D /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		EF623E0F240EDD0F00E5D33D /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		EFEDE09B24116528004A51DB /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		EFEDE09D2412A7BD004A51DB /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		EFEDE09E2412A7BD004A51DB /* JournalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalTableViewCell.xib; sourceTree = "<group>"; };
+		EFEDE0A12412B324004A51DB /* ChapterDataModeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDataModeller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF623DAF240EB81200E5D33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DC7240EB81400E5D33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DD2240EB81400E5D33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF623DA9240EB81200E5D33D = {
+			isa = PBXGroup;
+			children = (
+				EF623DE7240EBC6C00E5D33D /* Chapters.plist */,
+				EF623DB4240EB81200E5D33D /* Gap International Ipad */,
+				EF623DCD240EB81400E5D33D /* Gap International IpadTests */,
+				EF623DD8240EB81400E5D33D /* Gap International IpadUITests */,
+				EF623DB3240EB81200E5D33D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF623DB3240EB81200E5D33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF623DB2240EB81200E5D33D /* Management Training.app */,
+				EF623DCA240EB81400E5D33D /* Gap International IpadTests.xctest */,
+				EF623DD5240EB81400E5D33D /* Gap International IpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF623DB4240EB81200E5D33D /* Gap International Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				EF623DB5240EB81200E5D33D /* AppDelegate.swift */,
+				EFEDE0A52412BCAE004A51DB /* Controller */,
+				EFEDE0A32412BC78004A51DB /* Model */,
+				EFEDE0A42412BC98004A51DB /* View */,
+				EF623DC0240EB81300E5D33D /* Assets.xcassets */,
+				EF623DC2240EB81300E5D33D /* LaunchScreen.storyboard */,
+				EF623DC5240EB81300E5D33D /* Info.plist */,
+			);
+			path = "Gap International Ipad";
+			sourceTree = "<group>";
+		};
+		EF623DCD240EB81400E5D33D /* Gap International IpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF623DCE240EB81400E5D33D /* Gap_International_IpadTests.swift */,
+				EF623DD0240EB81400E5D33D /* Info.plist */,
+			);
+			path = "Gap International IpadTests";
+			sourceTree = "<group>";
+		};
+		EF623DD8240EB81400E5D33D /* Gap International IpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF623DD9240EB81400E5D33D /* Gap_International_IpadUITests.swift */,
+				EF623DDB240EB81400E5D33D /* Info.plist */,
+			);
+			path = "Gap International IpadUITests";
+			sourceTree = "<group>";
+		};
+		EFEDE0A32412BC78004A51DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF623E0E240EDD0F00E5D33D /* DataModel.xcdatamodeld */,
+				EFEDE0A12412B324004A51DB /* ChapterDataModeller.swift */,
+				EF623DE9240EBCDE00E5D33D /* Chapter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFEDE0A42412BC98004A51DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFEDE09E2412A7BD004A51DB /* JournalTableViewCell.xib */,
+				EF623DBD240EB81200E5D33D /* Main.storyboard */,
+				EFEDE09D2412A7BD004A51DB /* JournalTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFEDE0A52412BCAE004A51DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF623DB9240EB81200E5D33D /* MasterViewController.swift */,
+				EF623DBB240EB81200E5D33D /* DetailViewController.swift */,
+				EFEDE09B24116528004A51DB /* JournalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF623DB1240EB81200E5D33D /* Gap International Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF623DDE240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International Ipad" */;
+			buildPhases = (
+				EF623DAE240EB81200E5D33D /* Sources */,
+				EF623DAF240EB81200E5D33D /* Frameworks */,
+				EF623DB0240EB81200E5D33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gap International Ipad";
+			productName = "Gap International Ipad";
+			productReference = EF623DB2240EB81200E5D33D /* Management Training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF623DC9240EB81400E5D33D /* Gap International IpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF623DE1240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International IpadTests" */;
+			buildPhases = (
+				EF623DC6240EB81400E5D33D /* Sources */,
+				EF623DC7240EB81400E5D33D /* Frameworks */,
+				EF623DC8240EB81400E5D33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF623DCC240EB81400E5D33D /* PBXTargetDependency */,
+			);
+			name = "Gap International IpadTests";
+			productName = "Gap International IpadTests";
+			productReference = EF623DCA240EB81400E5D33D /* Gap International IpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF623DD4240EB81400E5D33D /* Gap International IpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF623DE4240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International IpadUITests" */;
+			buildPhases = (
+				EF623DD1240EB81400E5D33D /* Sources */,
+				EF623DD2240EB81400E5D33D /* Frameworks */,
+				EF623DD3240EB81400E5D33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF623DD7240EB81400E5D33D /* PBXTargetDependency */,
+			);
+			name = "Gap International IpadUITests";
+			productName = "Gap International IpadUITests";
+			productReference = EF623DD5240EB81400E5D33D /* Gap International IpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF623DAA240EB81200E5D33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sangeetha Gengaram";
+				TargetAttributes = {
+					EF623DB1240EB81200E5D33D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EF623DC9240EB81400E5D33D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EF623DB1240EB81200E5D33D;
+					};
+					EF623DD4240EB81400E5D33D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EF623DB1240EB81200E5D33D;
+					};
+				};
+			};
+			buildConfigurationList = EF623DAD240EB81200E5D33D /* Build configuration list for PBXProject "Gap International Ipad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF623DA9240EB81200E5D33D;
+			productRefGroup = EF623DB3240EB81200E5D33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF623DB1240EB81200E5D33D /* Gap International Ipad */,
+				EF623DC9240EB81400E5D33D /* Gap International IpadTests */,
+				EF623DD4240EB81400E5D33D /* Gap International IpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF623DB0240EB81200E5D33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEDE0A02412A7BD004A51DB /* JournalTableViewCell.xib in Resources */,
+				EF623DC4240EB81300E5D33D /* LaunchScreen.storyboard in Resources */,
+				EF623DC1240EB81300E5D33D /* Assets.xcassets in Resources */,
+				EF623DE8240EBC6C00E5D33D /* Chapters.plist in Resources */,
+				EF623DBF240EB81200E5D33D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DC8240EB81400E5D33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DD3240EB81400E5D33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF623DAE240EB81200E5D33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF623DB6240EB81200E5D33D /* AppDelegate.swift in Sources */,
+				EFEDE0A22412B324004A51DB /* ChapterDataModeller.swift in Sources */,
+				EF623DEA240EBCDE00E5D33D /* Chapter.swift in Sources */,
+				EFEDE09F2412A7BD004A51DB /* JournalTableViewCell.swift in Sources */,
+				EF623E10240EDD0F00E5D33D /* DataModel.xcdatamodeld in Sources */,
+				EF623DBA240EB81200E5D33D /* MasterViewController.swift in Sources */,
+				EF623DBC240EB81200E5D33D /* DetailViewController.swift in Sources */,
+				EFEDE09C24116529004A51DB /* JournalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DC6240EB81400E5D33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF623DCF240EB81400E5D33D /* Gap_International_IpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF623DD1240EB81400E5D33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF623DDA240EB81400E5D33D /* Gap_International_IpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF623DCC240EB81400E5D33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF623DB1240EB81200E5D33D /* Gap International Ipad */;
+			targetProxy = EF623DCB240EB81400E5D33D /* PBXContainerItemProxy */;
+		};
+		EF623DD7240EB81400E5D33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF623DB1240EB81200E5D33D /* Gap International Ipad */;
+			targetProxy = EF623DD6240EB81400E5D33D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF623DBD240EB81200E5D33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF623DBE240EB81200E5D33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF623DC2240EB81300E5D33D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF623DC3240EB81300E5D33D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF623DDC240EB81400E5D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF623DDD240EB81400E5D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF623DDF240EB81400E5D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
+				INFOPLIST_FILE = "Gap International Ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.CorporateTraining;
+				PRODUCT_NAME = "Management Training";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF623DE0240EB81400E5D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKX8KEUZ6R;
+				INFOPLIST_FILE = "Gap International Ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.CorporateTraining;
+				PRODUCT_NAME = "Management Training";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		EF623DE2240EB81400E5D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gap International IpadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Gap-International-IpadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gap International Ipad.app/Gap International Ipad";
+			};
+			name = Debug;
+		};
+		EF623DE3240EB81400E5D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gap International IpadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Gap-International-IpadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gap International Ipad.app/Gap International Ipad";
+			};
+			name = Release;
+		};
+		EF623DE5240EB81400E5D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gap International IpadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Gap-International-IpadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gap International Ipad";
+			};
+			name = Debug;
+		};
+		EF623DE6240EB81400E5D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gap International IpadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Gap-International-IpadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gap International Ipad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF623DAD240EB81200E5D33D /* Build configuration list for PBXProject "Gap International Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF623DDC240EB81400E5D33D /* Debug */,
+				EF623DDD240EB81400E5D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF623DDE240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF623DDF240EB81400E5D33D /* Debug */,
+				EF623DE0240EB81400E5D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF623DE1240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International IpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF623DE2240EB81400E5D33D /* Debug */,
+				EF623DE3240EB81400E5D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF623DE4240EB81400E5D33D /* Build configuration list for PBXNativeTarget "Gap International IpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF623DE5240EB81400E5D33D /* Debug */,
+				EF623DE6240EB81400E5D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF623E0E240EDD0F00E5D33D /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF623E0F240EDD0F00E5D33D /* DataModel.xcdatamodel */,
+			);
+			currentVersion = EF623E0F240EDD0F00E5D33D /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF623DAA240EB81200E5D33D /* Project object */;
+}
